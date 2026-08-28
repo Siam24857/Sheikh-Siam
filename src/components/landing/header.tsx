@@ -183,7 +183,7 @@ export default function Header() {
               <div className="group relative w-48 h-48 lg:w-60 lg:h-60 rounded-2xl lg:rounded-3xl overflow-hidden border border-primary/10 bg-background shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg hover:shadow-primary/40 cursor-pointer">
                 <Image
                   className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                  src="https://i.postimg.cc/90bThgRB/Chat-GPT-Image-May-31-2026-05-44-27-PM.png"
+                  src="https://i.postimg.cc/g09QJhVR/Chat-GPT-Image-Jul-4-2026-08-47-29-PM.png"
                   alt="Sheikh Siam"
                   width={200}
                   height={200}
