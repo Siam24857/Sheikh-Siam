@@ -552,7 +552,7 @@ export default function Contact() {
 
                 {/* Download CV */}
                 <a
-                  href="/Sheikh_Siam_CV.pdf"
+                  href="https://drive.google.com/file/d/1CL4Q4hPthLhhEv1Q-6suN6hHwuu_CIvW/view?usp=sharing"
                   className="w-full py-3 px-4 rounded-lg border border-[rgba(240,240,255,0.12)] text-[rgba(240,240,255,0.50)] text-center text-xs font-semibold uppercase tracking-wider hover:border-[#6c63ff] hover:text-[#f0f0ff] hover:-translate-y-0.5 transition-all duration-200"
                   style={{ fontFamily: "Space Grotesk, sans-serif" }}
                 >
