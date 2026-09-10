@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { useEffect, useRef } from "react";
-import { animate, motionValue } from "motion/react";
+import { animate, motionValue } from "framer-motion";
 
 type Motion = {
     type?: "spring" | "tween" | "keyframes" | "inertia";
