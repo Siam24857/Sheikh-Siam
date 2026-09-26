@@ -3,10 +3,26 @@
 import ThemeAwareLightRays from "./ThemeAwareLightRays";
 import InteractiveHeroCanvas from "./WaveArcs";
 import ScrollWaveField from "./ScrollWaveField";
+import WireTerrain from "./WireTerrain";
 
 export default function BackgroundWrapper() {
   return (
     <div className="fixed top-0 left-0 w-full h-full z-[-1] pointer-events-none">
+      {/* Wire Terrain background animation */}
+      <div className="absolute inset-0 h-full w-full">
+        <WireTerrain
+          background="#0A0A0A"
+          lineColor="#B12B00"
+          accent="#FF3C00"
+          density={120}
+          speed={100}
+          relief={100}
+          sunSize={100}
+          cameraHeight={94}
+          hover={200}
+        />
+      </div>
+
       {/* Scroll Wave Field background animation */}
       <div className="absolute inset-0 h-full w-full">
         <ScrollWaveField
